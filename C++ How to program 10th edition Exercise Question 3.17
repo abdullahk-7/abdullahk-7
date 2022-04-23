@@ -1,0 +1,68 @@
+#include<iostream>
+using namespace std;
+class ElectricBill
+{
+    private:
+    double amount,VAT,EWURA,REA,Units;
+    public:
+    ElectricBill(double am)
+    {
+        this->amount=am;
+    }
+    double amountPaid()
+    {
+
+    }
+    int setAmount()
+    {
+        cout<<"Enter the amount ";
+        cin>>amount;
+        return amount;
+    }
+
+    double getAmount()
+    {
+        if(amount<0)
+        {
+        amount=0;
+        return amount;
+        }
+        else 
+        return amount;
+    }
+    int returnVAT()
+    {
+        VAT=amount*0.18;
+        return VAT;
+    }
+    int returnEWURA()
+    {
+        EWURA=amount*0.01;
+        return EWURA;
+    }
+    int returnREA()
+    {
+        REA=amount*0.03;
+        return REA;
+    }
+    int getUnits(int num)
+    {
+        Units=num/295;
+        return Units;
+    }
+};
+int main()
+{
+    
+    double kwh,amount,price;
+    cout<<"Enter the Kilowathour used ";
+    ElectricBill ak(ak.setAmount());
+    amount=ak.getAmount()*295;
+    
+    price=amount-ak.returnEWURA()-ak.returnREA()-ak.returnVAT()-5000;
+   // cout<<"The Price is "<<price;
+    
+    cout<<"The Units are "<<ak.getUnits(price);
+
+    return 0;
+}

@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @abdullahk-7
-- 👀 I’m interested in coding and hacking although right now know nothing about hacking
+- 👀 I’m interested in coding and hacking although right now I haven't practiced hacking
 - 🌱 I’m currently learning OOP and Data Structures in C++
-- 💞️ I’m looking to collaborate on 
+- 💞️ I’m looking to collaborate on Web Development
 - 📫 How to reach me through my email it's khan.abdullahaha@icloud.com
 
 <!---
